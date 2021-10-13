@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon app.js",
-    "heroku-postbuild": "cd reactapp && npm intall && npm run build"
+    "heroku-postbuild": "cd reactapp && npm install && npm run build"
   },
   "dependencies": {
     "axios": "^0.22.0",
