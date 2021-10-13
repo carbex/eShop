@@ -112,6 +112,7 @@ const Home: React.FC = () => {
           handleClick={() => setCartOpen(true)}
         />
         <Grid container spacing={3}>
+          {/* test */}
           {itemsList}
         </Grid>
       </Wrapper>
